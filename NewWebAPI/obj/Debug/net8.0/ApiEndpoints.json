@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "NewWebAPI.Controllers.ApplicationsController",
+    "Method": "SubmitApplication",
+    "RelativePath": "api/Applications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationDto",
+        "Type": "NewWebAPI.Models.DTOS.CreateApplicationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebAPI.Controllers.QuestionsController",
+    "Method": "CreateQuestion",
+    "RelativePath": "api/Questions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionDto",
+        "Type": "NewWebAPI.Models.DTOS.CreateQuestionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebAPI.Controllers.QuestionsController",
+    "Method": "GetQuestions",
+    "RelativePath": "api/Questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewWebAPI.Controllers.QuestionsController",
+    "Method": "SubmitApplication",
+    "RelativePath": "api/Questions/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "application",
+        "Type": "NewWebAPI.Models.Application",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
